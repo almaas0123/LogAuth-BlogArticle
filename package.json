@@ -1,7 +1,7 @@
 {
-  "name": "sample-node-app",
+  "name": "sample",
   "version": "1.0.0",
-  "description": "Sample Node Application",
+  "description": "Node Application",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
