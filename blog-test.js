@@ -19,7 +19,7 @@ describe('Testing Blog APIs',function(){
 		req
 			.post('/login')
 			.set('Content-Type','application/json')
-			.send({username:'dipesh'})
+			.send({username:'mohnish'})
 			.expect(200)
 			.end(function(err,response){
 				response.status.should.be.equal(200);
@@ -40,7 +40,7 @@ describe('Testing Blog APIs',function(){
 		req
 			.post('/login')
 			.set('Content-Type','application/json')
-			.send({username:'dipesh'})
+			.send({username:'mohnish'})
 			.expect(200)
 			.end(function(err,response){
 				response.status.should.be.equal(200);
