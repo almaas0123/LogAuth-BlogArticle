@@ -31,7 +31,7 @@ app.use('/blogs',blogController);
 app.post('/login',function(req,res){
 	if(req.body.username=='dipesh'){
 		req.session.isLoggedIn = 'Y';
-		req.session.user = 'Dipesh';
+		req.session.user = 'Mohnish';
 		res.send('Success');
 	}else{
 		res.status(500);
