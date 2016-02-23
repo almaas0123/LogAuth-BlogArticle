@@ -1,0 +1,22 @@
+{
+  "name": "sample-node-app",
+  "version": "1.0.0",
+  "description": "Sample Node Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dipesh Patel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect-mongo": "^1.1.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "mongoose": "^4.3.4",
+    "should": "^8.0.2"
+  },
+  "devDependencies": {
+    "supertest-session": "^2.0.0"
+  }
+}
